@@ -14,6 +14,7 @@
 		336AEF6A286AE1E3007C783F /* Pwa_iOSTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 336AEF68286AE1E3007C783F /* Pwa_iOSTest.xcdatamodeld */; };
 		336AEF6C286AE1E4007C783F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336AEF6B286AE1E4007C783F /* Assets.xcassets */; };
 		336AEF6F286AE1E4007C783F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336AEF6D286AE1E4007C783F /* LaunchScreen.storyboard */; };
+		336AEF7D286B79DB007C783F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336AEF7C286B79DB007C783F /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		336AEF6B286AE1E4007C783F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		336AEF6E286AE1E4007C783F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		336AEF70286AE1E4007C783F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336AEF7C286B79DB007C783F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = "../../iOS-PWA-Wrapper/ios-pwa-wrapper/Constants.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				336AEF6D286AE1E4007C783F /* LaunchScreen.storyboard */,
 				336AEF70286AE1E4007C783F /* Info.plist */,
 				336AEF68286AE1E3007C783F /* Pwa_iOSTest.xcdatamodeld */,
+				336AEF7C286B79DB007C783F /* Constants.swift */,
 			);
 			path = "Pwa-iOSTest";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				336AEF7D286B79DB007C783F /* Constants.swift in Sources */,
 				336AEF64286AE1E3007C783F /* ViewController.swift in Sources */,
 				336AEF60286AE1E3007C783F /* AppDelegate.swift in Sources */,
 				336AEF6A286AE1E3007C783F /* Pwa_iOSTest.xcdatamodeld in Sources */,
@@ -296,11 +300,14 @@
 				DEVELOPMENT_TEAM = BPUX5BGUS6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Pwa-iOSTest/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pwa-iOSTest";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,11 +331,14 @@
 				DEVELOPMENT_TEAM = BPUX5BGUS6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Pwa-iOSTest/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pwa-iOSTest";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

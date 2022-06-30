@@ -15,6 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+        // Change Navigation style
+        UINavigationBar.appearance().barTintColor = navigationBarColor
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: navigationTitleColor]
+        UIBarButtonItem.appearance().tintColor = navigationButtonColor
+        if #available(iOS 14.1, *) {
+            UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: navigationTitleColor]
+        }
         return true
     }
 
